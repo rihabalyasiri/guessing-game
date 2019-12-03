@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+}
+
+.app {
+   
+    color: white;
+    width:100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rounds-block {
+    width:40%;
+    border:2px solid white;
+    margin-top: 20px;
+}
+
+.heading {
+    color: rgb(189, 186, 27);
+    font-weight: 300;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#custom-input {
+    display: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    border:none;
+    margin-bottom: 30px;
+}
+
+#rounds-counter {
+    width:100%;
+    margin-bottom: 50px;
+    display: none;
+    margin-left: 34%;
+
+}
+#rounds-counter p {
+    font-size: 70px;
+    margin-left: 10px;
+    display: inline-block;
+   
+
+}
+.guess-block {
+    width: 40%;
+    border:2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+#guess-input {
+    padding: 20px 1px;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#output {
+    margin-top: 40px;
+}
+
+.winner {
+    color:green;
+}
+
+.loser {
+    color:red;
+
+}
